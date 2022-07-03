@@ -1,0 +1,7 @@
+CREATE DATABASE taskdb
+
+CREATE TABLE task(
+    id SERIAL PRIMARY KEY,
+    titulo VARCHAR(255) UNIQUE,
+    descripcion VARCHAR(255)
+)
